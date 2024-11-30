@@ -1,0 +1,614 @@
+{
+  "id": "85433a03-e21e-43ed-afbe-ed1461866130",
+  "version": "2.0",
+  "name": "vr.fi testing",
+  "url": "https://www.vr.fi",
+  "tests": [{
+    "id": "7b9f26d1-5c0b-406f-878a-75cbb6482b6a",
+    "name": "Find Oulu-Helsinki tirp",
+    "commands": [{
+      "id": "bfd7c8c1-e71e-494e-82fa-0f97448e8e9e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e19ecbf-09d7-4989-b48c-6767d87886c0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e807802e-3c21-4fa6-9103-fa0ed0cc951b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EN",
+      "targets": [
+        ["linkText=EN", "linkText"],
+        ["css=.HeaderLayout_languageList__DXBjl .LanguageList_listItem__9LZKv:nth-child(2) > .Language_link__r88_O", "css:finder"],
+        ["xpath=//a[contains(text(),'EN')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div[3]/div/div/div/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c9612bf-95c1-49ea-a294-6a4d33581ae1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=from-station-picker",
+      "targets": [
+        ["id=from-station-picker", "id"],
+        ["css=#from-station-picker", "css:finder"],
+        ["xpath=//button[@id='from-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'From')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56eaa56b-be06-4d29-a00e-ab24e51dd205",
+      "comment": "",
+      "command": "click",
+      "target": "id=from-station-picker",
+      "targets": [
+        ["id=from-station-picker", "id"],
+        ["css=#from-station-picker", "css:finder"],
+        ["xpath=//button[@id='from-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'From')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f36804cf-0184-46b0-bc60-487ea2812f80",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=from-station-picker",
+      "targets": [
+        ["id=from-station-picker", "id"],
+        ["css=#from-station-picker", "css:finder"],
+        ["xpath=//button[@id='from-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'From')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d531ff3d-38dc-4033-8304-2ee9d2bd62c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=station-search",
+      "targets": [
+        ["id=station-search", "id"],
+        ["css=#station-search", "css:finder"],
+        ["xpath=//input[@id='station-search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b4deeb0-b81d-46bb-80e8-4b97b012fc58",
+      "comment": "",
+      "command": "type",
+      "target": "id=station-search",
+      "targets": [
+        ["id=station-search", "id"],
+        ["css=#station-search", "css:finder"],
+        ["xpath=//input[@id='station-search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "oulu"
+    }, {
+      "id": "f55f2c0b-8d81-46be-8545-468215ca5f77",
+      "comment": "",
+      "command": "click",
+      "target": "id=stationPickerOption_0",
+      "targets": [
+        ["id=stationPickerOption_0", "id"],
+        ["css=#stationPickerOption_0", "css:finder"],
+        ["xpath=//li[@id='stationPickerOption_0']", "xpath:attributes"],
+        ["xpath=//div[@id=':r0:']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Oulu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75645dfb-1cd6-48d7-a0e4-19f374b2aea4",
+      "comment": "",
+      "command": "click",
+      "target": "id=to-station-picker",
+      "targets": [
+        ["id=to-station-picker", "id"],
+        ["css=#to-station-picker", "css:finder"],
+        ["xpath=//button[@id='to-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'To')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "399b5441-802a-431e-8676-993f37732678",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=to-station-picker",
+      "targets": [
+        ["id=to-station-picker", "id"],
+        ["css=#to-station-picker", "css:finder"],
+        ["xpath=//button[@id='to-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'To')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "935a7f7f-2a94-45c8-81c3-b8727d4f387c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=to-station-picker",
+      "targets": [
+        ["id=to-station-picker", "id"],
+        ["css=#to-station-picker", "css:finder"],
+        ["xpath=//button[@id='to-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'To')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a916f78e-8d89-43f8-81c5-330966ebb1a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=station-search",
+      "targets": [
+        ["id=station-search", "id"],
+        ["css=#station-search", "css:finder"],
+        ["xpath=//input[@id='station-search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3752058-2e80-4604-807b-17dfd9c19ffe",
+      "comment": "",
+      "command": "type",
+      "target": "id=station-search",
+      "targets": [
+        ["id=station-search", "id"],
+        ["css=#station-search", "css:finder"],
+        ["xpath=//input[@id='station-search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "helsinki"
+    }, {
+      "id": "00fcffee-d0ec-4085-a773-cd32c1c9c884",
+      "comment": "",
+      "command": "click",
+      "target": "id=stationPickerOption_0",
+      "targets": [
+        ["id=stationPickerOption_0", "id"],
+        ["css=#stationPickerOption_0", "css:finder"],
+        ["xpath=//li[@id='stationPickerOption_0']", "xpath:attributes"],
+        ["xpath=//div[@id=':ro:']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Helsinki')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8669ab6c-df41-4f66-8c0f-84c7b9553672",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TripSearch_searchButton__IRo14",
+      "targets": [
+        ["css=.TripSearch_searchButton__IRo14", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='journey-search-hero']/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for journeys')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bf2e53b-7ac8-42c2-aaeb-d2010dfcd784",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27e9db6f-1879-49a8-bb73-70e5886ef765",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,28)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5ad5cd38-6671-4c16-a932-3e6e27f924fa",
+    "name": "Go to payment info",
+    "commands": [{
+      "id": "602403ad-e278-4768-9727-5b19791815d3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64d3326f-a324-460d-807d-b25fcbe6e691",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3bb787a-17ae-46f5-97c3-d2296a28b91b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=EN",
+      "targets": [
+        ["linkText=EN", "linkText"],
+        ["css=.HeaderLayout_languageList__DXBjl .LanguageList_listItem__9LZKv:nth-child(2) > .Language_link__r88_O", "css:finder"],
+        ["xpath=//a[contains(text(),'EN')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div[3]/div/div/div/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62f32d0d-be3e-4846-8681-c42b62a22116",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EN",
+      "targets": [
+        ["linkText=EN", "linkText"],
+        ["css=.HeaderLayout_languageList__DXBjl .LanguageList_listItem__9LZKv:nth-child(2) > .Language_link__r88_O", "css:finder"],
+        ["xpath=//a[contains(text(),'EN')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div[3]/div/div/div/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4558ed3-93fd-4f98-8e1b-19757cff0ff3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=EN",
+      "targets": [
+        ["linkText=EN", "linkText"],
+        ["css=.HeaderLayout_languageList__DXBjl .LanguageList_listItem__9LZKv:nth-child(2) > .Language_link__r88_O", "css:finder"],
+        ["xpath=//a[contains(text(),'EN')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/header/div[3]/div/div/div/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "959e6f38-393d-4582-855f-044e940b68da",
+      "comment": "",
+      "command": "click",
+      "target": "id=from-station-picker",
+      "targets": [
+        ["id=from-station-picker", "id"],
+        ["css=#from-station-picker", "css:finder"],
+        ["xpath=//button[@id='from-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'From')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c06511-490d-41d0-b934-274555a98e1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=station-search",
+      "targets": [
+        ["id=station-search", "id"],
+        ["css=#station-search", "css:finder"],
+        ["xpath=//input[@id='station-search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "oulu"
+    }, {
+      "id": "6fe505fb-cd16-4bd0-85b1-2dace58a26d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=stationPickerOption_0",
+      "targets": [
+        ["id=stationPickerOption_0", "id"],
+        ["css=#stationPickerOption_0", "css:finder"],
+        ["xpath=//li[@id='stationPickerOption_0']", "xpath:attributes"],
+        ["xpath=//div[@id=':r0:']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Oulu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca5b892c-f5cb-4238-a254-3359c3f25282",
+      "comment": "",
+      "command": "click",
+      "target": "id=to-station-picker",
+      "targets": [
+        ["id=to-station-picker", "id"],
+        ["css=#to-station-picker", "css:finder"],
+        ["xpath=//button[@id='to-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'To')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "206291a9-1826-42ef-9e80-679fc9a91ee6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=to-station-picker",
+      "targets": [
+        ["id=to-station-picker", "id"],
+        ["css=#to-station-picker", "css:finder"],
+        ["xpath=//button[@id='to-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'To')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8542524-54a3-44cb-8d85-4cb1f8078c98",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=to-station-picker",
+      "targets": [
+        ["id=to-station-picker", "id"],
+        ["css=#to-station-picker", "css:finder"],
+        ["xpath=//button[@id='to-station-picker']", "xpath:attributes"],
+        ["xpath=//div[@id='station-picker-pair']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'To')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e96f279-879b-4dcf-91f2-1f8a138c3f44",
+      "comment": "",
+      "command": "type",
+      "target": "id=station-search",
+      "targets": [
+        ["id=station-search", "id"],
+        ["css=#station-search", "css:finder"],
+        ["xpath=//input[@id='station-search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "rovaniemi"
+    }, {
+      "id": "c441d335-4fe5-4c71-b11c-5c1725d46001",
+      "comment": "",
+      "command": "click",
+      "target": "id=stationPickerOption_0",
+      "targets": [
+        ["id=stationPickerOption_0", "id"],
+        ["css=#stationPickerOption_0", "css:finder"],
+        ["xpath=//li[@id='stationPickerOption_0']", "xpath:attributes"],
+        ["xpath=//div[@id=':ro:']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Rovaniemi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef5dc952-15dd-4d94-b0a2-0c3afe560da4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TripSearch_searchButton__IRo14",
+      "targets": [
+        ["css=.TripSearch_searchButton__IRo14", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='journey-search-hero']/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for journeys')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba41e278-4c40-4f26-8a2c-3e06f932e4e2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "727a3ee7-7c7d-48af-9bc8-9af5a788ab9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DurationTransfers_transferCount__d0p_p > span",
+      "targets": [
+        ["css=.DurationTransfers_transferCount__d0p_p > span", "css:finder"],
+        ["xpath=//button[@id=':r1l:']/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Direct')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09f846a0-fa98-467c-a578-619ac2359042",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "791e28f7-a7b7-499f-8823-8425f57d19f3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,282.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1940dc33-1a98-483e-bec5-4ca6496c5c25",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,875.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e673d890-05cf-46e4-b040-b3febc3e9816",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vr-button:nth-child(1) > .LocalizedMessages_localizedCurrency__kqeGR",
+      "targets": [
+        ["css=.vr-button:nth-child(1) > .LocalizedMessages_localizedCurrency__kqeGR", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div[2]/div/div/section[2]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//section[2]/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Confirm journey (€28.60)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5287aef1-857a-4583-9680-c5976cb87dd1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb6be2d3-4ff1-4fa6-bb8a-d0817d2cef36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vr-button:nth-child(2)",
+      "targets": [
+        ["css=.vr-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//main[@id='maincontent']/div[2]/div/div/section/div[2]/div[3]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy without logging in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c7955f2-873b-4c78-93b3-8083c4a35019",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.vr-button:nth-child(2)",
+      "targets": [
+        ["css=.vr-button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//main[@id='maincontent']/div[2]/div/div/section/div[2]/div[3]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy without logging in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3468cac0-b2b0-4c20-b08c-45d9182cbe6b",
+      "comment": "",
+      "command": "type",
+      "target": "id=delivery-email-0",
+      "targets": [
+        ["id=delivery-email-0", "id"],
+        ["css=#delivery-email-0", "css:finder"],
+        ["xpath=//input[@id='delivery-email-0']", "xpath:attributes"],
+        ["xpath=//main[@id='maincontent']/div[2]/div/div/section/div[2]/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "test@test.fi"
+    }, {
+      "id": "9636ccd2-bdf6-48af-8f98-7fd63843dffa",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .form_option__ThAnj > .PaymentMethod_label__9BbF_",
+      "targets": [
+        ["css=div:nth-child(2) > .form_option__ThAnj > .PaymentMethod_label__9BbF_", "css:finder"],
+        ["xpath=//fieldset[@id='payment-method']/div[2]/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Payment card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b43ef7-be43-4b1c-ac78-1c75e1edbddf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vr-button:nth-child(6)",
+      "targets": [
+        ["css=.vr-button:nth-child(6)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//main[@id='maincontent']/div[2]/div/div/section/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go to payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c767f2d-ac87-4165-b9cb-3987d938cdf8",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["name=ctl13$cardNumber", "name"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='cardnumberContainer']/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c530e8-bacf-49ff-add2-52fcbe987df9",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["name=ctl13$cardNumber", "name"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='cardnumberContainer']/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": "000000000000000"
+    }, {
+      "id": "26919fca-135d-4894-8819-9fc5c0661926",
+      "comment": "",
+      "command": "click",
+      "target": "id=securityCode",
+      "targets": [
+        ["id=securityCode", "id"],
+        ["name=ctl13$securityCode", "name"],
+        ["css=#securityCode", "css:finder"],
+        ["xpath=//input[@id='securityCode']", "xpath:attributes"],
+        ["xpath=//div[@id='securitycodeContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c90bb44-c783-49e8-a64c-3d9a6def6cb3",
+      "comment": "",
+      "command": "type",
+      "target": "id=securityCode",
+      "targets": [
+        ["id=securityCode", "id"],
+        ["name=ctl13$securityCode", "name"],
+        ["css=#securityCode", "css:finder"],
+        ["xpath=//input[@id='securityCode']", "xpath:attributes"],
+        ["xpath=//div[@id='securitycodeContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/div/input", "xpath:position"]
+      ],
+      "value": "000"
+    }, {
+      "id": "95757e49-d2f1-4dfe-a703-286306e33726",
+      "comment": "",
+      "command": "click",
+      "target": "id=okButton",
+      "targets": [
+        ["id=okButton", "id"],
+        ["name=ctl13$okButton", "name"],
+        ["css=#okButton", "css:finder"],
+        ["xpath=//input[@id='okButton']", "xpath:attributes"],
+        ["xpath=//div[@id='payButtonContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c082832f-2436-40b5-8e92-c232129e6d70",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7b9f26d1-5c0b-406f-878a-75cbb6482b6a"]
+  }],
+  "urls": ["https://www.vr.fi/"],
+  "plugins": []
+}
